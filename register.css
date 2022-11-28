@@ -1,0 +1,36 @@
+/* Inside src/App.css */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Adobe Devanagari;
+  }
+  .title {
+    text-align: center;
+    width: 30vw;
+    background-color: rgb(245, 164, 171);
+    padding: 2vw 1vw;
+    border-radius: 10px 10px 0 0;
+    font-size: 2rem;
+    font-family: Adobe Devanagari;
+  }
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30vw;
+    padding: 2vw 1vw;
+    background-color: rgb(101, 123, 127);
+    border-radius: 0 0 10px 10px;
+  }
+  input {
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    outline: none;
+    margin: 5px;
+  }
+  
